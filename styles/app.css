@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading-l {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.875rem;
+  line-height: 3.625rem;
+  text-align: center;
+  letter-spacing: -0.0469rem;
+}
+
+.sub-heading {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.0094rem;
+  margin: 1rem 0 3rem 0;
+}
+
+.btn-green {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: white;
+  line-height: 1.875rem;
+  background: #26bba4;
+  -webkit-box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+          box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 1.75rem;
+  border-style: none;
+  padding: 0.8125rem 2.25rem;
+  margin-right: 0.5rem;
+  -webkit-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-green:hover {
+  cursor: pointer;
+  background: #6cd8c8;
+}
+
+.btn-purple {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: white;
+  line-height: 1.875rem;
+  background: #6174ff;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 1.75rem;
+  border-style: none;
+  padding: 0.8125rem 2.25rem;
+  margin-left: 0.5rem;
+  -webkit-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-purple:hover {
+  cursor: pointer;
+  background: #8c99fd;
+}
+
+.header {
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100% 75%;
+  padding-top: 8rem;
+}
+
+.header_info {
+  max-width: 45.625rem;
+  text-align: center;
+}
+
+.header_info .logo {
+  margin-bottom: 3.5rem;
+}
+/*# sourceMappingURL=app.css.map */
